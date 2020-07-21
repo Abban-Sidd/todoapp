@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: sandybrown;
+}
+#todo-items{
+    border-radius: 8px;
+    outline: none;
+    width: 220px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#lists li{
+    margin: 10px 0px 10px 0px;
+}
+.delbtn{
+    border-radius: 5px;
+    margin: 0px 7px 0px 7px;
+    outline: none;
+    transition: ease-in 0.5s;
+    cursor: pointer;
+}
+.delbtn:hover{
+    background-color: black;
+    color: white;
+}
+.editbtn{
+    border-radius: 5px;
+    margin: 0px 7px 0px 7px;
+    outline: none;
+    transition: ease-in 0.5s;
+    cursor: pointer;
+}
+.editbtn:hover{
+    background-color: black;
+    color: white;
+}
+.addbtn{
+    border-radius: 5px;
+    margin: 0px 7px 0px 7px;
+    outline: none;
+    transition: ease-in 0.5s;
+    cursor: pointer;
+}
+.addbtn:hover{
+    background-color: black;
+    color: white;
+}
+.deleteall{
+    border-radius: 5px;
+    margin: 0px 7px 0px 7px;
+    outline: none;
+    transition: ease-in 0.5s;
+    cursor: pointer;
+}
+.deleteall:hover{
+    background-color: black;
+    color: white;
+}
